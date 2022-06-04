@@ -1,0 +1,144 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(216, 50%, 16%);
+    overflow: hidden;
+}
+p{
+    color: gray;
+}
+/* BOX-CONTAINER */
+.box {
+    width: 300px;
+    height: 500px;
+    margin: 20vh auto;
+}
+.box1 {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: hsl(215, 32%, 27%);
+    color:white;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px red;
+}
+/* IMAG, TEXT,ETC*/
+.upper{
+    display: flex; 
+    width: 250px;
+    margin: 20px auto;
+    flex-direction: column;
+    justify-content: center;
+}
+/* IMG */
+.box-img img{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 10px;
+}
+/* TITLE, TEXT */
+.box-name span,p{
+    margin: 10px auto;
+    font-size:18px;
+    
+}
+.titulo{
+  
+    font-size: 20px;
+    
+}
+/* DATOS */
+.datos{
+    display: flex;
+    justify-content: space-between;
+}
+.datos-left{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.datos-left .icon-rubi{
+    background-image: url('./images/icon-ethereum.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding: 0 10px;
+    width: 18px;
+    height: 18px;
+}
+.datos-left p{
+    color: hsl(178, 100%, 50%);
+}
+.datos-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .datos-right .icon-watch{
+    background-image: url('./images/icon-clock.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding: 0 10px;
+    width: 18px;
+    height: 18px;
+ }
+.datos-right p{
+    color: gray;
+}
+h1 {
+    text-align: center;
+    margin: 40px; 
+    color: white;  
+}
+/* PÈRFIL */
+.downer{
+    display: flex; 
+    width: 250px;
+    margin: 10px auto;
+    flex-direction: column;
+    justify-content: center;
+}
+.downer .perfil{
+    display: flex; 
+    justify-content: space-between;
+}
+.perfil-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.perfil-left .icon-perfil{
+    background-image: url('./images/image-avatar.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    border-radius: 50%;
+    border:1px solid white;
+    padding: 0 10px;
+    width: 40px;
+    height: 40px;
+}
+.perfil-center{
+    display: flex;
+    padding: 0 10px;
+    justify-content: flex-start;
+    align-items: center;
+ }
+ .perfil-center span{
+     padding: 0 5px;
+     color: white;
+ }
+ .perfil-center .creation{
+     color: gray;
+ }
+
+
+
+
